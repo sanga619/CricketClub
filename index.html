@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Word</title>
+    
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+      .left img{
+        width: 91px;
+    height: 51px;
+}
+      
+    
+    .left div{
+        text-align:center;
+        font-size:10px;
+    }
+    body{
+        font-family: 'Baloo Bhai 2', cursive;
+        
+        margin:0px;
+        color:white;
+        padding:0px;
+        background-image:url(img/image2.jpg);
+    
+    }
+    .left{
+        display:inline-block;
+        position:absolute;
+        left:23px;
+        top:14px;
+        
+      
+
+    }
+    .mid{
+        border:4px solid green;
+        border-radius: 3400px;
+        display:block;
+        width:28%;
+        margin:15px 450px;
+    
+        
+
+    }
+    .right{
+        
+        display:inline-block;
+        position:absolute;
+        right:34px;
+        top:22px;
+        
+    }
+    .nivbar li{
+        display:inline-block;
+        font-size: 16px;
+        
+
+             }
+     
+     .nivbar li a{
+         text-decoration: none;
+        padding:4px 4px;
+        color:white;
+     }    
+     .nivbar li a:hover, .nivbar li a.active{
+         text-decoration: underline;
+         background-color: indigo;
+
+     }   
+     .btn{
+         margin:0px 9px;
+         border:2px solid red;
+         padding :3px 4px;
+         cursor: pointer;
+         border-radius: 25px;
+         
+     } 
+     .btn:hover{
+         background-color: gray;
+     }
+     .container{
+         border:4px solid black;
+         display: inline-block;
+         margin: 114px 55px;
+          padding: 41px;
+          width: 23%;
+         border-radius: 28px;
+              }
+              .form input{
+                  text-align: center;
+                  display: inline-block;
+                  border-radius: 10px;
+                  padding: 4px;
+                  margin: 4px;
+                  font-size: 20px;
+                  font-family: 'Baloo Bhai 2', cursive;
+        
+              }
+              .btn1{
+                  display:block;
+                  margin: 17px auto;
+                  width: 55px; 
+                  border-radius: 4px;
+              }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+          <image src="img/image4.jpg"></image>
+          <div>CRICKET WORLD</div>
+        </div>
+        <div class="mid">
+          <ul class="nivbar">
+              <li class=active><a href="#">HOME</a></li>
+              <li><a href="#">BOOKING</a></li>
+              <li><a href="#">HISTORY</a></a></li>
+              <li><a href="#">ABOUT US</a></li>
+          </ul>
+        </div>
+        <div class="right ">
+         <button class="btn"> contact us </button>
+         <button class="btn"> call us </button>
+        </div>
+        <div class="container">
+    
+            <h1>Join Cricket Club</h1>
+            <form action="abhi.php">
+
+                <div class="form">
+                    <input type="text" name="" placeholder="Enter your Name">
+                    
+                </div>
+                <div class="form">
+                    <input type="text" name="" placeholder="Enter your father name">
+                    
+                </div>
+                <div class="form">
+                    <input type="text" name="" placeholder="enter your contact number">
+                    
+                </div>
+                <div class="form">
+                    <input type="text" name="" placeholder="Enter your email">
+                </div>
+                <button class="btn1">submit</button>
+            </form>
+            <div></div>
+        </div>
+    </header>
+</body>
+</html>
